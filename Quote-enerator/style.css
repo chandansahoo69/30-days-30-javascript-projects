@@ -1,0 +1,16 @@
+body{
+    background: #003466;
+    text-transform: capitalize;
+  }
+  blockquote{
+    background: #D8A5A7;
+    border-left: 3px solid #4CDB6A;
+    border-radius: 5px;
+    padding: 1.5rem;
+  }
+  #quote{
+    color: #2745E1;
+  }
+  #quoteAuthor{
+    color: #DFD609;
+  }
