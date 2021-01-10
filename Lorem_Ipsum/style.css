@@ -1,0 +1,20 @@
+h2, label{
+    text-align: center;
+    color: rgb(0, 139, 139);
+}
+.col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#amount{
+    width: 40%;
+}
+.lorem-text{
+    width: 100%;
+    padding: 0 13%;
+}
