@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="App">
+        <div class="controls">
+            <label>Horizontal Length</label>
+            <br />
+            <input id="hl" type="range" min="-100" max="70" />
+            <br />
+            <label>Vertical Length</label>
+            <br />
+            <input id="vl" type="range" min="-100" max="70" />
+            <br />
+            <label>Blur</label>
+            <br />
+            <input id="bl" type="range" min="0" max="70" />
+            <br />
+            <label>Color</label>
+            <br />
+            <input id="cl" type="color" />
+            <br />
+            <label>Background Color</label>
+            <br />
+            <input id="bcl" type="color" />
+
+            <div class="switch">
+                <label>
+                    Outline
+                    <input type="checkbox" id="checkOn" />
+                    <span class="lever"></span>
+                    Inset
+                </label>
+            </div>
+
+        </div>
+        <div class="result">
+            <div class="box" id="box">
+                <div class="result-container">
+                    <span id="result">
+                        <p id="show">box-shadow: 10px 10px 10pxpx #000; </p>
+                    </span>
+                    <button class="btn" id="clipboard">
+                        <i class="fa fa-clone">copy</i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+</body>
+
+</html>
