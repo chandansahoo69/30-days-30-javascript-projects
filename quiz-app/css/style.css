@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: purple;
+}
+.welcome-text{
+    width: 25rem;
+}
+.welcome-form input,
+.welcome-form button{
+    display: block;
+    width: 100%;
+}
+.welcome-form input{
+    margin-bottom: 1rem;
+    background: transparent;
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid #333;
+    padding: 5px 10px;
+    text-transform: capitalize;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+.welcome-form button{
+    padding: .8rem 1rem;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border-radius: 30px;
+    color: #2d0036;
+    cursor: pointer;
+    transition: all .5s ease-in;
+}
+.welcome-form button:hover{
+    background: #2d0036;
+    color: #fff;
+    transform: translateY(-5px);
+}
+.welcome-form input:focus,
+.welcome-form button:focus{
+    outline: none;
+}
+.quiz{
+    display: grid;
+    grid-template-rows: 3rem auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 90%;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,0.3);
+    background-color: #fff;
+}
+.quiz-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 2px 3px 1px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.quiz-body{
+    background-color: #ecf0f1;
+    padding: 2rem;
+}
+.quiz-user{
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.quiz-timer{
+    display: flex;
+    align-items: center;
+    background-color: #2d0036;
+    color: #fff;
+    padding: 0 2rem;
+    border-top-right-radius: 5px;
+}
+.option-group{
+    list-style: none;
+    margin: 2rem 0;
+}
+.option{
+    background-color: #fff;
+    width: 20rem;
+    padding: 1rem 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all .5s ease;
+}
+.option:hover{
+    cursor: pointer;
+    border: 2px solid #2d0036;
+}
+.btn-next{
+    background: #2d0036;
+    padding: 1rem 2.3rem;
+    margin-bottom: 1rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: all .5s ease;
+}
+.btn-next:hover{
+    cursor: pointer;
+    background: #fff;
+    color: #2d0036;
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+.active{
+    background-color: #2d0036;
+    color: #fff;
+}
+.wrapper i{
+    font-size: 15rem;
+    color: #fff;
+    text-align: center;
+}
+.username,
+.userpoints,
+.usertime{
+    text-align: center;
+    color: #fff;
+    margin: 1rem 0;
+}
