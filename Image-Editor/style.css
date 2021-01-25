@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#targetImage{
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width:760px){
+    .col{
+        width: 100%;
+        text-align: center;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
